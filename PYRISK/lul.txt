@@ -1,0 +1,6 @@
+def deplacer_soldats(PA1,PA2,Joueur):
+    if  veri_Pays_Joueur(PA1,Joueur) and  veri_Pays_Joueur(PA2,Joueur):
+        if veri_Frontiere(PA1,PA2):
+            if soldats[PA1] > 1:
+                soldats[PA1] -= 1
+                soldats[PA2] += 1
