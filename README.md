@@ -1,1 +1,4 @@
 # PYRISK
+## REQUIREMENTS
+- tkinter
+- PIL
